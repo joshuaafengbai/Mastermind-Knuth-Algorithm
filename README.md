@@ -35,26 +35,6 @@ From the set of guesses with the minimum (max) score, select one as the next gue
 
 Knuth follows the convention of choosing the guess with the least numeric value e.g. 2345 is lower than 3456. Knuth also gives an example showing that in some cases no member of S will be among the highest scoring guesses and thus the guess cannot win on the next turn, yet will be necessary to assure a win in five.
 
-Table of example scoreset counts for two possible next guesses
-
-Scores(B/W)	RRGB	RGBG
-(0,0)	25	15
-(0,1)	4	84
-(0,2)	6	0
-(0,3)	0	0
-(0,4)	0	0
-(1,0)	15	0
-(1,1)	10	0
-(1,2)	0	0
-(1,3)	5	0
-(2,0)	5	0
-(2,1)	3	0
-(2,2)	2	0
-(3,0)	24	0
-(4,0)	1	1
-max	25	84
-Repeat from step 3.
-
 For reference https://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf
 
 # Getting Started
